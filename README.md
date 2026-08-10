@@ -1,2 +1,15 @@
-# Capstone-project
-1st Frontend AI engineering project, built with the help of Claude code.
+# Capstone Project
+
+A frontend MERN application built as part of my Frontend AI engineering capstone.
+
+## Stack
+- Frontend: React (Create React App)
+- HTML5
+- CSS3
+- Tailwind CSS
+
+## Status
+In progress — initial setup phase.
+
+## Getting Started
+Instructions coming soon.
