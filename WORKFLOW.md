@@ -1,0 +1,8 @@
+# Workflow Analysis: Vague vs. Clear Prompting
+
+## Overview
+This document analyzes the results of a controlled experiment where a feature(User Settings form with validations) was built twice using different AI-assisted workflows. The goal was to quantify the impact of prompt quality on code correctness, accessibility, maintainability, and overall development time.
+
+### Vague Branch vs Clear Branch
+I used a single sentence prompt(Build me a user settings form with validations) in vague prompting, the AI used useState for validations and it didn't give an eyecatching UI also it does not contain any clear error messages on empty fields. After clicking the submit button the fields do not become empty and contain the data that we enter and we have to manually remove data to re-enter a new data which is not a good UI sign.
+Besides vague prompt, in clear prompting I gave a very clear and explained prompt and told AI each and every technology, file references, constraints and verifications used in it, I also told to add clean css styling to make it more interactive.I told to add strong and weak password analysis in it so that every user has a strong password. Clear prompting gave a well-structured and interactive form with important and less important fields mentioned it also gives clear and concise error message on any type of error. Also data removes automatically leaving the fields empty after submitting the form.

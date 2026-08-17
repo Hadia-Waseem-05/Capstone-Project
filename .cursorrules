@@ -5,8 +5,13 @@
 - HTML5
 - CSS3
 - Tailwind CSS
+- React and Vite
+- Javascript
 
 ## Conventions
 - Use functional components with hooks
 - Keep files single-purpose, avoid deep abstraction
 - Commit messages follow Conventional Commits (feat:, fix:, docs:, chore:)
+- Forms must use react-hook-form and zod for validations
+- Write clean code with interactive UI
+- There should be separate components files in components' folder for clear understanding
