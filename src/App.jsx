@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import UserSettingsForm from "./UserSettingsForm";
+import UserSettingsPage from "./components/UserSettingsPage.jsx";
 
 export default function App(){
     return(  
     <BrowserRouter>
     <Routes>
-        <Route path="/" element={<UserSettingsForm/>}/>
+        <Route path="/" element={<UserSettingsPage/>}/>
     </Routes>
     </BrowserRouter>)
 }
